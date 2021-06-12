@@ -8,7 +8,7 @@ subtitle: trying and believe in yourself
 description: 
 keywords: moonaa, visualvk
 author: moonaa
-language: zh-Hans
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -41,6 +41,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:

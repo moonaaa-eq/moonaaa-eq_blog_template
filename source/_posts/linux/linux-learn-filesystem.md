@@ -73,7 +73,7 @@ tags:
     df -h # 查看磁盘占用率，高于80%，需要清除空间，或是添加行硬盘
     ```
 
-    ![df-h](linux-learn-filesystem/df-h.png)
+    ![df-h](./linux-learn-filesystem/df-h.png)
 
     ```shell
     # -h 带单位
@@ -86,7 +86,7 @@ tags:
     du -hac --max-depth=1 /opt
     ```
 
-    ![du-hac--max-depth=1opt](linux-learn-filesystem/du-hac-maxdeep.png)
+    ![du-hac--max-depth=1opt](./linux-learn-filesystem/du-hac-maxdeep.png)
 
     # 文件计数
 
@@ -95,8 +95,8 @@ tags:
     ls -lR | grep "^-" | wc -l
     ```
 
-    ![lslRgrepwcl](linux-learn-filesystem/lslRgrepwcl.png)
-
+    ![lslRgrepwcl](./linux-learn-filesystem/lslRgrepwcl.png)
+    
     ```shell
     # 以树状图显示文件目录, 若没有tree，先安装tree
     # 以archlinux为例：sudo pacman -S tree

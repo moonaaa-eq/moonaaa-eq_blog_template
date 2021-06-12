@@ -15,7 +15,7 @@ tags:
 systemctl list-unit-files
 ```
 
-![systemctllistunitfiles](linux-learn-service/systemctllistunitfiles.png)
+![systemctllistunitfiles](./linux-learn-service/systemctllistunitfiles.png)
 
 # 监控网络状态
 
@@ -24,7 +24,7 @@ systemctl list-unit-files
 ss -anp # 显示所有sockets进程，同时不解析域名
 ```
 
-![ssanp](linux-learn-service/ss-anp.png)
+![ssanp](./linux-learn-service/ss-anp.png)
 
 # 防火墙
 
@@ -46,4 +46,5 @@ firewall-cmd --permnant --add-port <port>
 firewall-config
 ```
 
-![firewallconfig](linux-learn-service/firewalld-config.png)
+![firewallconfig](./linux-learn-service/firewalld-config.png)
+

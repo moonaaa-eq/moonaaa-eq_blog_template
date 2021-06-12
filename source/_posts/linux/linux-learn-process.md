@@ -22,7 +22,7 @@ top
 # q 退出
 ```
 
-![top](https://visualvk.github.io/2021/06/04/linux/linux-%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86%E5%AD%A6%E4%B9%A0/img/top.png)top
+![top](./linux-learn-process/top.png)
 
 # 进程查看
 
@@ -30,7 +30,7 @@ top
 ps -aux # 不显示父子关系
 ```
 
-![ps-aux](linux-learn-process/ps-aux.png)ps-a
+![ps-aux](./linux-learn-process/ps-aux.png)ps-a
 
 | 表头    | 名称          | 参数解释                                                     |
 | ------- | ------------- | ------------------------------------------------------------ |
@@ -49,7 +49,7 @@ ps -aux # 不显示父子关系
 ps -ef # 显示进程之间的父子关系
 ```
 
-![ps-ef](linux-learn-process/ps-ef.png)ps-ef
+![ps-ef](./linux-learn-process/ps-ef.png)
 
 # 终止进程
 
@@ -70,5 +70,5 @@ killall <name>
 pstree -up
 ```
 
-![pstree-up](linux-learn-process/pstree-up.png)
+![pstree-up](./linux-learn-process/pstree-up.png)
 

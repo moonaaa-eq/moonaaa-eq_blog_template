@@ -468,6 +468,11 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hexo-asset@^1.0.0":
+  "integrity" "sha1-wZ0pv3C9VaUIzctHOE41LmToqmc="
+  "resolved" "https://registry.nlark.com/hexo-asset/download/hexo-asset-1.0.0.tgz"
+  "version" "1.0.0"
+
 "hexo-cli@^4.0.0":
   "integrity" "sha1-dGR7xyqQuc6/BK9bxwg5qygaMF0="
   "resolved" "https://registry.npm.taobao.org/hexo-cli/download/hexo-cli-4.2.0.tgz"
